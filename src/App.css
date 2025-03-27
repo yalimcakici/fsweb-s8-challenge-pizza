@@ -40,3 +40,115 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.headerAnasayfa {
+  color: #FAF7F2;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+.p1{
+  color : #FAF7F2;
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  font-size: 86px;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+}
+
+.p2{
+  color :#FAF7F2;
+  font-family: Roboto Condensed;
+font-weight: 300;
+font-size: 86px;
+line-height: 92px;
+letter-spacing: 1.5px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+
+}
+
+body {
+  background-color: #CE2829;
+}
+ 
+
+.buttonAnasayfa {
+  background-color: #FDC913;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 20px;
+ 
+}
+
+.buttonAnasayfa:hover {
+  background-color: white;
+}
+
+
+
+
+.homeBanner {
+  display: flex;
+  flex-direction: column; /* Elemanları dikey (yukarıdan aşağıya) yerleştir */
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 50vh;
+}
+
+
+.imageOrder {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 25rem;
+ background-color: #CE2829;
+}
+
+
+.controllerHome {
+  position: relative; /* Konumlandırma */
+  top: -900px; /* Yüksekliği negatif değerle yukarı taşıyoruz */
+  display: flex;
+  justify-content: space-around;
+  color: white;
+ padding: 5px;
+
+}
+.controllerOrder {
+  position: relative; /* Konumlandırma */
+  top: -900px; /* Yüksekliği negatif değerle yukarı taşıyoruz */
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 5px;
+ 
+
+}
+
+.controllerSucces {
+  position: relative; /* Konumlandırma */
+  top: -900px; /* Yüksekliği negatif değerle yukarı taşıyoruz */
+  display: flex;
+  justify-content: space-around;
+  color: white;
+ padding: 5px;
+
+}
+
+.imageOrder{
+  background-color: red
+  ;
+}
